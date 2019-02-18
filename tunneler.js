@@ -1,5 +1,6 @@
 const cluster = require('cluster');
 const { print, log } = require('./util/module.inc.debug')();
+const commands = require('./commands');
 
 // If the application is offline, it won't reach the handlers.
 // No connections to Discord are made.
