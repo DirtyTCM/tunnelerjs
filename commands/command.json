@@ -1,0 +1,11 @@
+{
+  "command_mapping": {
+    "default": "mention",
+    "about": "about",
+    "ping": "ping",
+	"uptime": "uptime"
+    "select": "select",
+    "version": "version",
+    "say": "say"
+  }
+}

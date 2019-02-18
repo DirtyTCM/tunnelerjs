@@ -1,0 +1,48 @@
+ {
+  "localization": "en",
+  "middlewares": {
+      "antispam": {
+      "enabled": false,
+      "settings": {
+        "punishments": ["warn", "warn", "role"],
+        "punishmentRole": "524890659119693834",
+        "cyclePunishments": true,
+        "silentMode": false
+      },
+      "excluded_authors": ["280189800244314113", "524685928673837057"],
+      "excluded_roles": ["524890658754789376", "524890658578628608"]
+    }
+  },
+  "commands": {
+    "ping": {
+      "enabled": true,
+      "access": [
+        "all"
+      ]
+    },
+    "exit": {
+      "enabled": true,
+      "access": [
+        "owner"
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "access": [
+        "all"
+      ]
+    },
+    "reboot": {
+      "enabled": true,
+      "access": [
+        "owner"
+      ]
+    },
+    "uptime": {
+      "enabled": true,
+      "access": [
+        "all"
+      ]
+    }
+  }
+}

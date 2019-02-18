@@ -1,0 +1,46 @@
+{
+  "localization": "en",
+  "middlewares": {
+    "antispam": {
+      "enabled": true,
+      "settings": {
+        "punishments": ["warn", "warn", "role"],
+        "punishmentRole": "518102698437115913",
+        "cyclePunishments": true,
+        "silentMode": false
+      }
+    }
+  },
+  "commands": {
+    "about": {
+      "enabled": true,
+      "access": [
+        "all"
+      ]
+    },
+    "exit": {
+      "enabled": true,
+      "access": [
+        "owner"
+      ]
+    },
+    "ping": {
+      "enabled": true,
+      "access": [
+        "owner"
+      ]
+    },
+    "reboot": {
+      "enabled": true,
+      "access": [
+        "owner"
+      ]
+    },
+    "uptime": {
+      "enabled": true,
+      "access": [
+        "owner"
+      ]
+    }
+  }
+}

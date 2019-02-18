@@ -1,0 +1,30 @@
+{
+  "globalSettings": {
+    "myCustomSetting": 3
+  },
+  "strings": {
+    "default": {
+      "keywords": [
+        "Ligma"
+      ],
+      "success_0": "Balls.",
+      "success_1": "Nuts"
+    },
+    "en": {
+      "keywords": [
+        "example",
+        "eg"
+      ],
+      "success_0": "english language example.",
+      "success_1": "another english language example."
+    },
+    "fi": {
+      "keywords": [
+        "esimerkki",
+        "esim"
+      ],
+      "success_0": "suomenkielinen esimerkki.",
+      "success_1": "toinen suomenkielinen esimerkki."
+    }
+  }
+}

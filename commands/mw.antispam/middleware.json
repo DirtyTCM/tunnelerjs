@@ -1,16 +1,16 @@
 {
   "globalSettings": {
     "splitter": " ",
-    "shortWordLength": 2,
-    "longWordLength": 24,
-    "repetitiousChars": 3
+    "shortWordLength": 1,
+    "longWordLength": 300,
+    "repetitiousChars": 6
   },
   "strings": {
     "default": {
-      "warning": "stop spamming or you'll be punished.",
-      "punished_ban": "was banned because of spamming.",
+      "warning": "stop spamming or ill mute you",
+      "punished_ban": "held the hammer :hammer: .",
       "punished_kick": "was kicked because of spamming.",
-      "punished_role": "got a new role because of spamming."
+      "punished_role": "Enjoy the mute ! :mute: "
     },
     "fi": {
       "warning": "lopeta spämmäys ettei tarvitse ojentaa.",
